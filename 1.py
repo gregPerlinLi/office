@@ -92,4 +92,4 @@ def main():
 for _ in range(8):
     main()
 msg='[AutoApiSecret]已成功调用{}次，结束时间为{}'.format(num1,fin)
-send(msg)
+# send(msg)
