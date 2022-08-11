@@ -15,9 +15,7 @@ import telepot
 
 path=sys.path[0]+r'/1.txt'
 num1 = 0
-try:
-    token=str(sys.argv[1])
-except:
+token=str(sys.argv[1])
 chat_id=str(sys.argv[2])
 bot=telepot.Bot(token)
 fin=None
