@@ -2,17 +2,17 @@
 name: Auto Api Secret
 
 on: 
-  release:
-    types: [published, created, edited]
-  push:
-    tags:
-      - 'v*'
-    branches: 
-      - master
+#  release:
+#    types: [published, created, edited]
+#  push:
+#    tags:
+#      - 'v*'
+#    branches: 
+#      - master
   schedule:
     - cron: '0 0-8 * * *'
-  workflow_dispatch:
-    inputs:
+#  workflow_dispatch:
+#    inputs:
    
 jobs:
   build:
