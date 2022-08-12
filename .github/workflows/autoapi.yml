@@ -11,8 +11,9 @@ on:
 #      - master
   schedule:
     - cron: '0 0-8 * * *'
-#  workflow_dispatch:
-#    inputs:
+  workflow_dispatch:
+    inputs:
+  push: {branches: ["master", "main"]}
    
 jobs:
   build:
